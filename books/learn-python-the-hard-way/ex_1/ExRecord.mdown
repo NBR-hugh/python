@@ -91,7 +91,39 @@
 
 # 问题解决记录
 
-Q01:如何在 IDLE 实现文件的 open?
+## Q01:如何在 IDLE 实现文件的 open?
 
+- 背景(5min)
+    - 十分少用 IDLE, 尝试了2次直觉方式,失败
+    - 错误提示:
+    >>> txt = open(ex15_sample.py)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ex15_sample' is not defined
 
+- 定义问题(3min)
+    - 如何在 IDLE 中实现文件的 open
+    - 其实最大的区别是文件的定位的问题
+    - IDLE 如何决定文件的位置
+
+- 搜索(8min)
+    - 关键词00: python IDLE file open
+    - 参考资料:
+        - [Python idle not opening text file with open () - Stack Overflow](https://stackoverflow.com/questions/35670906/python-idle-not-opening-text-file-with-open)
+    - 方案: 给出全路径文件名
+
+    > result_f = open("/Users/Joe/Desktop/results.text")
+
+- 验证:(7min)
+
+    ```
+    >>> txt = open("/Users/NBR-hugh/python/books/learn-python-the-hard-way/ex_1/ex15_sample.txt")
+    >>> a = txt.read()
+    >>> print a
+    This is stuff I typed into a file.
+    It is really cool stuff.
+    Lots and lots of fun to have in here.
+    ```
+
+- 问题解决(total:23min)
 
