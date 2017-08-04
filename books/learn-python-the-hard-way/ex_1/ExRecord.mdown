@@ -1,0 +1,78 @@
+#入学任务探索记录
+
+## 导入
+
+- [编程思维 Python 基础班四期入学挑战 · Issue #138 · AIHackers/PythonStartUp](https://github.com/AIHackers/PythonStartUp/issues/138)
+
+## 任务摘要
+
+1. Py2 <笨方法学 python>前40个小练习及相应附加题
+2. 300字的练习过程复盘
+    - 练习过程:哪些练习是顺畅的?哪些是困难的,卡顿的?
+    - 解题过程:遇到困难如何解决?举个例子描述
+        - 发现问题
+        - 探索问题
+        - 解决问题
+        - 全过程与各环节时长
+
+## 探索记录
+
+- Q00.确认当前 Py 版本
+    - Python 2.7.9
+
+- ex1 30min
+- ex2 17min
+    - Tip00:一个好使的查错技巧,倒着阅读代码
+- ex3 25min
+    - KL00:浮点数
+        - [浮点数 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E6%B5%AE%E7%82%B9%E6%95%B0)
+- ex4 16min
+- ex5 33min
+    - KL01:格式化字符串(format string)
+        - [Python格式字符串（译）](http://blog.xiayf.cn/2013/01/26/python-string-format/)
+        - [格式化字符串 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2)
+        - 使用%操作符。2.6版以后提供了format方法。
+            - [7.1. string — Common string operations — Python 2.7.13 documentation](https://docs.python.org/2/library/string.html#format-string-syntax)
+
+- ex6 15min
+- ex7 6min
+    - TIP01:导读代码,记录错误,在新一个习题前过一遍,尽量避免再犯.
+- ex8 18min
+- ex9 6min
+    - 字符串与变量的组合:print "",x
+    - 换行打印:
+        - 多行打印:"""x"""
+        - 换行符:\n
+- ex10 15min
+    - KL02:转义序列(escape sequence)
+
+- ex11 12min
+    - raw_input()
+
+- ex12 30min
+    - raw_input("remind")
+    - pydoc
+
+- ex13 21min
+    - 接受参数的脚本(argv)
+        - script,user_name = argv
+
+- ex14 13min
+    - 提示与传递,文字游戏
+    - """ 定义多行字符串
+    - % 字符串格式化工具
+
+- ex15 20min
+    - 文件处理
+
+- ex16 29min
+    - 读写
+
+- ex17 
+
+
+
+
+
+
+
