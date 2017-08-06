@@ -65,8 +65,11 @@
 - ex15 20min
     - file: open / read / close
 
+
+---
+
 - ex16 29min
-    - 文件读写 
+    - 简单文本编辑器
     - read write
     - Q01:如何在 IDLE 实现文件的 open?
 
