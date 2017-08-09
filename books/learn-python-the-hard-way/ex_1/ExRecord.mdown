@@ -64,33 +64,31 @@
 
 - ex15 20min
     - file: open / read / close
-
-
----
-
-- ex16 29min
-    - 简单文本编辑器
-    - read write
     - Q01:如何在 IDLE 实现文件的 open?
 
+- ex16 34min
+    - 简单文本编辑器
+    - open(filename,"r,a,w")
+
+
 - ex17 25min
-    - 将一个文件的内容复制到另外一个文件中
-    - 命令 exists（）：查询文件是否存在，返回Ture, 否则False
-    - 通过import 直接引用其他更厉害程序员写的代码
-    - len() 命令：查询传递的字符串的函数
+    - exists 
+    - cat
 
-- ex18 26min
-    - 函数的创建要点/注意事项清单
+- ex18 16min
+    - 函数的创建调用
 
-- ex19 27min
-    - 函数变量与脚本变量的区别
+- ex19 20min
+    - 函数参数传递
 
-- ex20 21min
-    - 函数与文件的协同
+- ex20 23min
+    - 注意函数和文件是如何一起发挥作用的?
+    - 如何传递当前行号信息?
+        - seek(0), 文件的读取指针:0 首,1 当前,2 尾;
 
-- ex21 13min
-    - 函数的返回值
-    - return
+- ex21 
+
+
 
 # 问题解决记录
 
@@ -129,4 +127,6 @@ NameError: name 'ex15_sample' is not defined
     ```
 
 - 问题解决(total:23min)
+
+## Q02:
 
