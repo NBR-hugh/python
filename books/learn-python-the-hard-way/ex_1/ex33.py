@@ -46,4 +46,4 @@ if __name__ == '__main__':
 # 04 使用该函数重写脚本
 
 # 05 for 与 range 重写脚本,不需要递增操作了,若有递增只对第一个数有影响.
-    [increment,increment+1,....,maximum]
+    #[increment,increment+1,....,maximum]
