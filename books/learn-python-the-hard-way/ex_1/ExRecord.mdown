@@ -99,8 +99,57 @@
 - ex24 15min
     - 练习
 
-- ex25 
+- ex25 1h
+    - 被多次打断
+    - 精神状态不佳时不要编程,改错会更费时间
 
+- ex26 33min
+    - 改错,自己看一遍再根据调试结果看一遍
+
+- ex27 5min
+    - 背真值表
+
+- ex28 10min
+    - 作布尔判断,用复杂的布尔式子作训练
+
+- ex30 12min
+
+- ex31 21min
+
+- ex32 1h
+    - list的方法, 添加至 flashcard
+    - in range(,)
+
+- ex33 33min
+    - while 循环
+        - for 循环是更好的选择
+        - 确保可以停止,即 while 判断为 false
+    - +1 循环用 range(), +2,3... 循环用 i += x
+
+- ex34 5min
+    - 序数与基数
+        - 0,1,2,3...
+        - 1,2,3,4,5...
+
+- ex35 30min
+    - 文字游戏
+
+- ex36 15min  
+    - print 调试法
+    - 用列表,函数,模块写游戏
+
+- ex37 25min
+    - 弄懂每个未知符号的含义
+    - 阅读代码的技巧
+
+- ex38 48min
+    - list 操作
+
+- ex39 1h
+    - dict 操作
+
+- ex40 1h
+    - module 与 class
 
 # 问题解决记录
 
@@ -140,5 +189,51 @@ NameError: name 'ex15_sample' is not defined
 
 - 问题解决(total:23min)
 
-## Q02:
+## Q02:ex25 
+
+- 错误信息:
+
+        Traceback (most recent call last):
+          File "ex25.py", line 53, in <module>
+            word2 = print_last_word(words)
+        TypeError: print_last_word() takes no arguments (1 given)
+
+- 情况描述:
+    print_last_word与 print_first_word 基本相同,检查完全没有错误,但依然提示参数个数接受错误
+
+- 错误原因:
+    - py 文件中有错误的同名函数print_last_word,导致解释器读取不正确
+
+- 改进措施:
+    - 不要在精神状态不好的情况下编程,容易频繁莫名其妙傻错误.
+
+## Q03:ex27
+
+- 错误原文:
+
+        beans, jars, crates == secret_formula(start_point)
+
+- 原因分析:
+
+    - 接受函数返回值的变量需要先定义
+
+- 解决措施:
+
+        start_point = 10000
+        beans = 0
+        jars = 0
+        crates = 0
+
+        beans, jars, crates == secret_formula(start_point)
+
+## Q04:ex31 EOFError: EOF when reading a line
+
+- 错误原因: sublime text 的调试台不支持 input,需要安装 SublimeREPL 包.
+    - 来源:[Python 3: EOF when reading a line (Sublime Text 2 is angry) - Stack Overflow](https://stackoverflow.com/questions/12547683/python-3-eof-when-reading-a-line-sublime-text-2-is-angry)
+
+ 
+
+
+
+
 
